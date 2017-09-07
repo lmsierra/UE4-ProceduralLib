@@ -56,7 +56,6 @@ public:
      param OuyDestinationComponent - Component that copies the originalMesh.
      param LODIndex                - Index of the level of detail to copy.
      param ShouldGenerateCollision - Indicates if collision should be generated.
-     return                        - Return the number of materials copied.
      */
     UFUNCTION(BlueprintCallable, Category = "ProceduralMeshLibrary")
         static void CopyProceduralMeshFromStaticMeshComponent(UStaticMeshComponent* OriginalComponent, UProceduralMeshComponent* OuyDestinationComponent, int32 LODIndex, bool ShouldGenerateCollision);
